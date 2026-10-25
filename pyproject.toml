@@ -1,0 +1,9 @@
+[project]
+name = "voltkit-python-server-example"
+version = "0.1.0"
+description = "VoltKit RTC token server in plain Python (standard library only)."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+token-server = "app.__main__:main"
